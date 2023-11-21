@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#container {
+  text-align: center;
+}
+
+#grade {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  margin-top: 20px;
+}
+
+.celula {
+  width: 100px;
+  height: 100px;
+  font-size: 24px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.celula:hover {
+  background-color: #f0f0f0;
+}
+
+#resetar-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#resetar-placar-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#pontuacao {
+  margin-top: 20px;
+  font-size: 18px;
+}
